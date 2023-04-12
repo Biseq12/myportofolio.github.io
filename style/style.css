@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.container1{
+    padding: 3% 15%;
+}
+
+
+.container2{
+    margin-top: 10%;
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(42, 42, 88)
+}
+
+.icon{
+    color: purple;
+}
+
+.description{
+    margin-top: 3%;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(92, 91, 91);
+}
+
+.container3{
+    padding: 11% 15%;
+}
+
+#pfp{
+    border-radius: 50%;
+    width: 15rem;
+    margin-top: 5%;
+}
+
+#tindog{
+    width: 25rem;
+}
+
+.boards{
+    margin: 5%;
+    padding: 10%;
+}
+
+.dog{
+    margin-top: 5%;
+}
+
+.container4{
+    padding: 5% 15%;
+    margin-top: -10%;
+    margin-bottom: 15%;
+}
+
+#footer{
+    padding: 2% 15%;
+    background-color: black;
+    color: white;
+}
+
+.contactbtn{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5%;
+    width: 15rem;}
+
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+@media (max-width: 395px){
+    #tindog{
+        width: 12rem;
+        margin-right: 250px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 840px){
+    #tindog{
+        width: 15rem;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1651px){
+    #tindog{
+        width: 20rem;
+    }
+}
