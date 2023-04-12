@@ -40,11 +40,14 @@ body{
     border-radius: 50%;
     width: 15rem;
     margin-top: 5%;
+    max-width: 100%;
 }
 
 #tindog{
     width: 25rem;
+    max-width: 100%;
 }
+
 
 .boards{
     margin: 5%;
@@ -53,6 +56,7 @@ body{
 
 .dog{
     margin-top: 5%;
+    
 }
 
 .container4{
@@ -78,21 +82,33 @@ body{
 }
 
 
+.icon2{
+    padding: 10px;
+}
+
+a{
+    color: white; 
+}
+
+
+
 @media (max-width: 395px){
     #tindog{
         width: 12rem;
-        margin-right: 250px;
+        max-width: 100%;
     }
 }
 
-@media (min-width: 400px) and (max-width: 840px){
+/* @media (min-width: 400px) and (max-width: 840px){
     #tindog{
         width: 15rem;
+        max-width: 100%;
     }
-}
+} */
 
 @media(min-width: 991px) and (max-width: 1651px){
     #tindog{
         width: 20rem;
+        max-width: 100%;
     }
 }
